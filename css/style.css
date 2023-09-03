@@ -7,6 +7,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.text-description-color{
+    color: #727272;
+}
+
 .btn-primary{
     border-radius: 8px;
     background: #FF900E;
@@ -67,10 +71,6 @@ nav li a{
     font-weight: 700;
 }
 
-.banner-description{
-    color: #727272;
-}
-
 .banner img{
     margin-top: 20px;
     width: 100%;
@@ -80,7 +80,7 @@ nav li a{
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* feature section styles */
@@ -105,7 +105,6 @@ main{
 }
 
 .quick-list{
-    color: #727272;
     font-weight: 500;
 }
 
@@ -119,24 +118,22 @@ main{
     font-weight: 700;
 }
 
-.features-description{
-    color: #727272;
-    font-size: 16px;
-    font-weight: 400;
-}
-
 
 
 /* responsive meida queries */
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    header{
+    header, .features-content{
         padding: 20px;
     }
 
-    nav{
+    nav, .features-container{
         flex-direction: column;
+    }
+
+    .features-img-container{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -146,7 +143,7 @@ main{
         padding: 50px;
     }
 
-    nav{
+    nav, .features-container{
         flex-direction: column;
     }
 }
