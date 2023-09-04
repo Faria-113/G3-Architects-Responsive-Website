@@ -125,10 +125,6 @@ main{
     gap: 100px;
 }
 
-/* .love-enjoy-container img{
-    height: 900px;
-} */
-
 .love-enjoy-content .text-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
@@ -148,22 +144,31 @@ main{
     font-weight: 600;
 }
 
+.love-enjoy-img img{
+    margin-left: 90px;
+    height: 90%;
+}
+
 .ten-years-badge{
     border-radius: 8px;
     background: #FF900E;
     padding: 30px;
     color: #FFF;
-    width: 342px;
+    width: 340px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 
 .ten-years-badge h2{
     font-size: 4rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .ten-years-badge p{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -220,12 +225,22 @@ main{
         padding: 20px;
     }
 
-    nav, .features-container, .facts-card, .sponsors-img-container{
+    nav, .features-container, .love-enjoy-container, .facts-card, .sponsors-img-container{
         flex-direction: column;
     }
 
     .features-img-container{
         grid-template-columns: 1fr;
+    }
+
+    .love-enjoy-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
     }
 
     .facts-card{
@@ -246,7 +261,7 @@ main{
         padding: 50px;
     }
 
-    nav, .features-container{
+    nav, .features-container, .love-enjoy-container{
         flex-direction: column;
     }
 
