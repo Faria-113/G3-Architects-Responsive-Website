@@ -118,6 +118,55 @@ main{
     font-weight: 700;
 }
 
+/* love enjoy section styles */
+.love-enjoy-container{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+/* .love-enjoy-container img{
+    height: 900px;
+} */
+
+.love-enjoy-content .text-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.love-enjoy-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.love-enjoy-content .card .card-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 30px;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+
+.ten-years-badge h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.ten-years-badge p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
 /* facts section styles */
 .facts-card{
     display: flex;
