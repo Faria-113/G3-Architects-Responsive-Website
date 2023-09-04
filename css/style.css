@@ -146,6 +146,21 @@ main{
     margin-top: 5px;
 }
 
+/* sponsors section styles */
+.sponsors-container{
+    text-align: center;
+}
+
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.sponsors-img-container img{
+    width: 165px;
+}
+
 
 
 /* responsive meida queries */
@@ -156,12 +171,23 @@ main{
         padding: 20px;
     }
 
-    nav, .features-container{
+    nav, .features-container, .facts-card, .sponsors-img-container{
         flex-direction: column;
     }
 
     .features-img-container{
         grid-template-columns: 1fr;
+    }
+
+    .facts-card{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sponsors-img-container{
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -173,5 +199,14 @@ main{
 
     nav, .features-container{
         flex-direction: column;
+    }
+
+    .facts-card {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .sponsors-img-container img{
+        width: 100px;
     }
 }
